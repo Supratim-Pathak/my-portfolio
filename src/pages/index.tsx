@@ -34,7 +34,7 @@ export default function Home() {
             <p className="mt-5 font-normal leading-relaxed">
               Hi, I'm Web Developer and a tech enthusiast, I have
               about 3+ years of experience with JavaScript. MongoDB, Express.js, React.js, Node.js, Laravel are the technologies I use all the time.{" "}
-              <Link href="/about">(Would you like to learn more about me)</Link>
+              <Link className="underline text-blue-200" href="/about">(Would you like to learn more about me)</Link>
             </p>
           </div>
         </div>

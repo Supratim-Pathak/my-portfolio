@@ -12,6 +12,7 @@ import {
   TAILWIND,
   DOCKER,
   REACT,
+  LARAVEL
 } from "../svg";
 export default function Tech() {
   const techlist = [
@@ -19,6 +20,7 @@ export default function Tech() {
     { name: "CSS", logo: <CSS /> },
     { name: "JavaScript", logo: <JS /> },
     { name: "Node.js", logo: <NODE /> },
+    { name: "Express Js.", logo: <EXPRESS /> },
     { name: "React.js", logo: <REACT /> },
     { name: "Mongo DB", logo: <MONGO /> },
     { name: "Next.js", logo: <NEXT /> },
@@ -26,11 +28,12 @@ export default function Tech() {
     { name: "AWS", logo: <AWS /> },
     { name: "Docker", logo: <DOCKER /> },
     { name: "Git", logo: <GIT /> },
+    { name: "Laravel", logo: <LARAVEL /> },
   ];
 
   return (
     <>
-      <div className="mt-40">
+      <div className="mt-20">
         <div>
           <h1 className="font-semibold text-3xl text-white">
             Technologies I use

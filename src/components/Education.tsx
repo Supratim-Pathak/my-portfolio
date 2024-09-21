@@ -1,7 +1,7 @@
 export default function Edu() {
     return (
         <>
-            <div className="overflow-hidden">
+            <div className="overflow-hidden mt-20">
                 <a href="https://alibeyeml.meb.k12.tr/tema/index.php" target="_blank" className="text-white font-semibold">
                     <h3>Alibeyköy MTAL</h3>
                 </a>

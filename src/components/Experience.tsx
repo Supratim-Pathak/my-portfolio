@@ -28,32 +28,32 @@ export default function Experience() {
             <ul className="list-disc ml-5 text-base font-normal text-gray-500 dark:text-gray-400">
               <li className="mb-4 mt-3">
                 Created SaaS e-commerce applications utilizing headless
-                e-commerce services and integrated the GitHub API to dynamically
+                e-commerce services and integrated the <span className="text-white font-semibold"> GitHub API </span> to dynamically
                 generate websites, resulting in over a 30% boost in development
                 efficiency.
               </li>
               <li className="mb-4 mt-3">
                 GeEnhanced back-end performance through the implementation of
-                backend clustering, which improved processing efficiency.
+                <span className="text-white font-semibold"> backend clustering</span>, which improved processing efficiency.
               </li>
               <li className="mb-4 mt-3">
-                Employed CI/CD pipelines (Continuous Integration/Continuous
-                Deployment) for smooth and automated deployment processes.
+                Employed <span className="text-white font-semibold">CI/CD pipelines (Continuous Integration/Continuous
+                Deployment)</span> for smooth and automated deployment processes.
               </li>
               <li className="mb-4 mt-3">
-                I have deployed and managed websites on serverless platforms
-                like Vercel, which increased site scalability and reduced
+                I have deployed and managed websites on <span className="text-white font-semibold">serverless platforms
+                like Vercel</span> , which increased site scalability and reduced
                 hosting expenses by 25%.
               </li>
               <li className="mb-4 mt-3">
-                Analyzed SEO performance with tools such as Google Analytics,
-                SEMrush, and Ahrefs to ensure ongoing optimization and adherence
+                Analyzed SEO performance with tools such as <span className="text-white font-semibold"> Google Analytics,
+                SEMrush, and Ahrefs</span> to ensure ongoing optimization and adherence
                 to best practices, leading to an approximate 20% rise in organic
                 traffic.
               </li>
               <li className="mb-4 mt-3">
                 Worked collaboratively with cross-functional teams to improve
-                both front-end and back-end performance, enhancing the overall
+                both <span className="text-white font-semibold">front-end and back-end</span> performance, enhancing the overall
                 user experience.
               </li>
             </ul>
@@ -100,12 +100,12 @@ export default function Experience() {
             <ul className="list-disc ml-5 text-base font-normal text-gray-500 dark:text-gray-400">
               <li className="mb-4 mt-3">
                 Developed and maintained a high-performance shipment tracking
-                system using Laravel/PHP, improving shipment visibility and
+                system using <span className="text-white font-semibold">Laravel/PHP</span>, improving shipment visibility and
                 reducing processing time by 30%.
               </li>
               <li className="mb-4 mt-3">
-                Integrated third-party platform APIs (e.g., payment gateways,
-                logistics services) to enhance system capabilities and
+               Integrated <span className="text-white font-semibold">third-party platform APIs (e.g., payment gateways,
+                logistics services)</span> to enhance system capabilities and
                 interoperability.
               </li>
               <li className="mb-4 mt-3">
@@ -157,9 +157,9 @@ export default function Experience() {
                 Completed Professional web development training.
               </li>
               <li className="mb-4 mt-3">
-                Gained in-depth Knowledge of various types of technologies like
+                Gained in-depth Knowledge of various types of technologies like<span className="text-white font-semibold">
                 CodeIgniter, HTML, CSS, JS, PHP, HTML, CSS, Bootstrap, Ajax,
-                MVC, Jquery, API.
+                MVC, Jquery, API.</span>
               </li>
               <li className="mb-4 mt-3">
                 Worked on a live project and developed a covid vaccine booking

@@ -191,3 +191,10 @@ export const GIT = () => {
     </>
   );
 };
+export const LARAVEL = () => {
+  return (
+    <>
+      <img className="flex-shrink-0 h-7 w-7" src="../laravel.png" />
+    </>
+  );
+};

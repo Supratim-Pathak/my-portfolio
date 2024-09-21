@@ -1,12 +1,18 @@
+import Link from "next/link";
+
 export default function About() {
   return (
     <div className="full-container ">
       <div className="container mx-auto rounded-lg text-start ">
+        <Link
+          target="_blank"
+          href="../SupratimPathak_WebDeveloper_CV.pdf"
+        >
         <img
           src="../Supratim-Pathak.jpg" // This is a dummy image URL
           alt="Profile"
-          className="w-36 h-36 rounded-full mx-auto mb-6"
-        />
+          className="w-36 h-36 rounded-full mx-auto mb-6 cursor-pointer"
+        /></Link>
         <h1 className="text-3xl text-white font-bold text-gray-800 mb-6">
           About Me
         </h1>

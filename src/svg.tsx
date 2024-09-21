@@ -38,14 +38,14 @@ export const REACT = () => {
 export const NEXT = () => {
   return (
     <>
-      <Image src="/Next.png" width={35} height={35} alt="Next" />
+      <Image src="/Next.png" width={30} height={30} alt="Next" />
     </>
   );
 };
 export const TAILWIND = () => {
   return (
     <>
-      <Image src="/tailwind.png" width={35} height={35} alt="React" />
+      <Image src="/tailwind.png" width={30} height={30} alt="React" />
     </>
   );
 };
@@ -79,7 +79,7 @@ export const MONGO = () => {
 export const EXPRESS = () => {
   return (
     <>
-      <Image src="/Express.png" width={35} height={35} alt="React" />
+      <Image src="/Express.png" width={30} height={30} alt="React" />
     </>
   );
 };
@@ -100,21 +100,21 @@ export const DOCKER = () => {
 export const TYPESCRIPT = () => {
   return (
     <>
-      <Image src="/TS.png" width={35} height={35} alt="React" />
+      <Image src="/React.png" width={30} height={30} alt="React" />
     </>
   );
 };
 export const GIT = () => {
   return (
     <>
-      <Image src="/GIT.png" width={35} height={35} alt="React" />
+      <Image src="/GIT.png" width={30} height={30} alt="React" />
     </>
   );
 };
 export const LARAVEL = () => {
   return (
     <>
-      <Image src="/laravel.png" width={35} height={35} alt="React" />
+      <Image src="/laravel.png" width={30} height={30} alt="React" />
     </>
   );
 };

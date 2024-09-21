@@ -3,7 +3,7 @@ export default function Edu() {
     <>
       <div className="overflow-hidden mt-10">
         <a
-          href="https://alibeyeml.meb.k12.tr/tema/index.php"
+          href="#"
           target="_blank"
           className="text-white font-semibold"
         >

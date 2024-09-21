@@ -10,7 +10,6 @@ export default function Home() {
   return (
     <>
       <Seo title={"Home"}></Seo>
-
       <main>
         <div className="full-container flex">
           <div className="space-y-4">

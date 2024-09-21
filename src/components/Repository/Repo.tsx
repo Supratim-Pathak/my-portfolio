@@ -46,8 +46,9 @@ export default function Repo() {
         <div className="grid grid-cols-2 gap-2 mt-4">
           <div className="cursor-pointer shadow-lg border rounded-md border-opacity-25 ">
             <a
-              href="https://github.com/AdemCanCertel/website"
+              href="https://www.udemy.com/certificate/UC-6e99ae5b-2eab-4ced-b232-94e6c53e0f6a/"
               className="no-underline"
+              target="_blank" 
             >
               <div className="flex flex-col justify-between p-2 gap-2">
                 <div className="flex items-center justify-between">
@@ -65,8 +66,9 @@ export default function Repo() {
 
           <div className="cursor-pointer shadow-lg border rounded-md border-opacity-25 ">
             <a
-              href="https://github.com/AdemCanCertel/website"
+              href="https://www.udemy.com/certificate/UC-5ec79c26-f391-4c2b-8949-8ace44c1c5b8/"
               className="no-underline"
+              target="_blank"
             >
               <div className="flex flex-col justify-between p-2 gap-2">
                 <div className="flex items-center justify-between">
@@ -83,8 +85,9 @@ export default function Repo() {
           </div>
           <div className="cursor-pointer shadow-lg border rounded-md border-opacity-25 ">
             <a
-              href="https://github.com/AdemCanCertel/website"
+              href="https://www.udemy.com/certificate/UC-acb4bb04-2df9-4405-87f9-589bb7ea7e71/"
               className="no-underline"
+              target="_blank"
             >
               <div className="flex flex-col justify-between p-2 gap-2">
                 <div className="flex items-center justify-between">
@@ -101,8 +104,9 @@ export default function Repo() {
           </div>
           <div className="cursor-pointer shadow-lg border rounded-md border-opacity-25 ">
             <a
-              href="https://github.com/AdemCanCertel/website"
+              href="https://www.udemy.com/certificate/UC-dd9bfe44-c29c-4e25-b1f4-9f65ff00c29a/"
               className="no-underline"
+              target="_blank"
             >
               <div className="flex flex-col justify-between p-2 gap-2">
                 <div className="flex items-center justify-between">

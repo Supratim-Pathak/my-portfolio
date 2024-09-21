@@ -82,7 +82,7 @@ export const REACT = () => {
     <>
       <img
         className="flex-shrink-0 h-7 w-7"
-        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+        src="../React.png"
       />
     </>
   );

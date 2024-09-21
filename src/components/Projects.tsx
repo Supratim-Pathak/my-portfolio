@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <div className="mt-20 ">
       <div>
-        <h1 className="font-semibold text-3xl text-white">My projects</h1>
+        <h1 className="font-semibold text-3xl text-white">Projects</h1>
       </div>
       <div className="py-6 px-3 grid grid-cols-1 gap-2 mt-4 sm:gird-cols-1 md:grid-cols-1 cursor-pointer shadow-lg border rounded-md border-opacity-25">
         <span className="text-white text-2xl font-semibold">

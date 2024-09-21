@@ -11,9 +11,13 @@ export default function About() {
           About Me
         </h1>
         <p className="text-lg text-base font-normal text-gray-500 dark:text-gray-400 leading-relaxed mb-4 ">
-          Hi, I'm <strong>Supratim Pathak</strong>, a highly skilled web
-          developer with over 3 years of experience specializing in the{" "}
-          <strong>MERN stack</strong> (MongoDB, Express.js, React.js, Node.js).
+          Hi, I'm{" "}
+          <span className="text-white font-semibolt">Supratim Pathak</span> , a
+          highly skilled web developer with over 3 years of experience
+          specializing in the{" "}
+          <span className="text-white font-semibolt">
+            MERN stack (MongoDB, Express.js, React.js, Node.js).
+          </span>
           Throughout my career, I have developed responsive, scalable
           applications and optimized front-end performance, focusing on crafting
           efficient back-end solutions.

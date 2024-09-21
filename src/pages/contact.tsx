@@ -5,7 +5,7 @@ import React from "react";
 export default function contact() {
   return (
     <>
-      <Seo title={"supratim.vercel.app | Contact "}></Seo>
+      <Seo title={"Contact"}></Seo>
 
       <ContactUs></ContactUs>
     </>

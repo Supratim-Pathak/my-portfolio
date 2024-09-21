@@ -1,40 +1,47 @@
 export default function Repo() {
-  const cource = [
+  const courses = [
     {
-      id: "1",
-      name: "MongoDB - The Complete Developer's Guide 202",
-      logo: "",
-      link: "",
-      date: "",
+        id: "1",
+        name: "NodeJS - The Complete Guide",
+        platform: "Udemy",
+        date: "March 19, 2023",
+        link: "NodeJS - The Complete Guide"
     },
     {
-      id: "1",
-      name: "MongoDB - The Complete Developer's Guide 202",
-      logo: "",
-      link: "",
-      date: "",
+        id: "2",
+        name: "MongoDB - The Complete Developer's Guide 2023",
+        platform: "Udemy",
+        date: "Dec 27, 2023",
+        link: "MongoDB - The Complete Developer's Guide 2023"
     },
     {
-      id: "1",
-      name: "MongoDB - The Complete Developer's Guide 202",
-      logo: "",
-      link: "",
-      date: "",
+        id: "3",
+        name: "Next.js 14 & React - The Complete Guide",
+        platform: "Udemy",
+        date: "March 04, 2024",
+        link: "Next.js 14 & React - The Complete Guide"
     },
     {
-      id: "1",
-      name: "MongoDB - The Complete Developer's Guide 202",
-      logo: "",
-      link: "",
-      date: "",
+        id: "4",
+        name: "React - The Complete Guide 2024 (incl. Next.js, Redux)",
+        platform: "Udemy",
+        date: "March 8, 2024",
+        link: "https://udemy-certificate.s3.amazonaws.com/image/UC-5ec79c26-f391-4c2b-8949-8ace44c1c5b8.jpg"
     },
-  ];
+    {
+        id: "4",
+        name: "Docker for the Absolute Beginner - Hands On - DevOps",
+        platform: "Udemy",
+        date: "March 17, 2024",
+        link: "Docker for the Absolute Beginner - Hands On - DevOps"
+    }
+];
 
   return (
-    <>
+    <> 
       <section>
         <h2 className="font-semibold text-3xl text-white">
-          My GitHub Repositories
+          My certifications
         </h2>
         <div className="grid grid-cols-2 gap-2 mt-4">
           <div className="cursor-pointer shadow-lg border rounded-md border-opacity-25">

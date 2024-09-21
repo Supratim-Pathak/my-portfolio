@@ -4,27 +4,12 @@ import Tech from "@/components/Tech";
 import Projects from "@/components/Projects";
 import Head from "next/head";
 import Link from "next/link";
+import Seo from "@/components/Seo";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <link
-          rel="shortcut icon"
-          href="https://media.discordapp.net/attachments/870311702347018250/884454889240006716/Bugs_Banny-AdemCan.jpg"
-        />
-        <title>Home - AdemCan C.</title>
-        <meta
-          name="description"
-          content="A young student who knows JavaScript and loves programming."
-        />
-        <meta name="keywords" content="ademcan, frontend, ademcandev" />
-        <meta name="theme-color" content="#41B883" />
-        <meta
-          property="og:image"
-          content="https://media.discordapp.net/attachments/870311702347018250/884454889240006716/Bugs_Banny-AdemCan.jpg"
-        />
-      </Head>
+      <Seo title={"Home"}></Seo>
 
       <main>
         <div className="full-container flex">

@@ -1,8 +1,13 @@
-import ContactUs from '@/components/ContactUs'
-import React from 'react'
+import ContactUs from "@/components/ContactUs";
+import Seo from "@/components/Seo";
+import React from "react";
 
 export default function contact() {
   return (
-    <ContactUs></ContactUs>
-  )
+    <>
+      <Seo title={"supratim.vercel.app | Contact "}></Seo>
+
+      <ContactUs></ContactUs>
+    </>
+  );
 }

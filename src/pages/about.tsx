@@ -1,7 +1,9 @@
+import Seo from "@/components/Seo";
 import Link from "next/link";
 
 export default function About() {
   return (
+    <><Seo title={"supratim.vercel.app | About"}></Seo>
     <div className="full-container ">
       <div className="container mx-auto rounded-lg text-start ">
         <Link
@@ -76,5 +78,6 @@ export default function About() {
         </a>
       </div>
     </div>
+    </>
   );
 }

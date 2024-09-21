@@ -12,7 +12,8 @@ import {
   TAILWIND,
   DOCKER,
   REACT,
-  LARAVEL
+  LARAVEL,
+  TYPESCRIPT
 } from "../svg";
 export default function Tech() {
   const techlist = [
@@ -29,6 +30,7 @@ export default function Tech() {
     { name: "Docker", logo: <DOCKER /> },
     { name: "Git", logo: <GIT /> },
     { name: "Laravel", logo: <LARAVEL /> },
+    { name: "Typescript", logo: <TYPESCRIPT /> },
   ];
 
   return (

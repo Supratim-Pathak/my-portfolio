@@ -100,7 +100,7 @@ export const DOCKER = () => {
 export const TYPESCRIPT = () => {
   return (
     <>
-      <Image src="/React.png" width={30} height={30} alt="React" />
+      <Image src="/TS.png" width={30} height={30} alt="React" />
     </>
   );
 };

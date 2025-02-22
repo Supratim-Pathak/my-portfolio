@@ -9,7 +9,7 @@ export default function Projects() {
         <h1 className="font-semibold text-3xl text-white">Projects</h1>
       </div>
       <a
-        href="https://www.npmjs.com/package/max-rbac"
+        href="https://github.com/Supratim-Pathak/Web-AI-writer"
         target="_blank"
         rel="noopener noreferrer"
         className="block"

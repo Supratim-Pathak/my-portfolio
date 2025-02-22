@@ -16,6 +16,25 @@ export default function Projects() {
       >
         <div className="py-6 px-3 grid grid-cols-1 gap-2 mt-4 sm:grid-cols-1 md:grid-cols-1 cursor-pointer shadow-lg border rounded-md border-opacity-25">
           <span className="text-white text-2xl font-semibold">
+           ✍️🚀AI Writing Assistant - Chrome Extension 
+          </span>
+          <p className="text-white font-sans font-semibold">
+            Technologies: AI, LLM ,React.js, Vite.js, Open route API, axios 
+          </p>
+          <span className="text-base font-normal text-gray-500 dark:text-gray-400">
+          
+          An AI-powered Chrome extension that corrects grammar, improves clarity, and refines tone. Works offline using local LLMs for privacy-friendly text suggestions. Supports multiple tones: Personable, Confident, Empathetic, Engaging, Witty, and Direct. Enhance your writing effortlessly!
+          </span>
+        </div>
+      </a>
+      <a
+        href="https://www.npmjs.com/package/max-rbac"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block"
+      >
+        <div className="py-6 px-3 grid grid-cols-1 gap-2 mt-4 sm:grid-cols-1 md:grid-cols-1 cursor-pointer shadow-lg border rounded-md border-opacity-25">
+          <span className="text-white text-2xl font-semibold">
             🚀 Role-Permission Package (max-rcba)
           </span>
           <p className="text-white font-sans font-semibold">

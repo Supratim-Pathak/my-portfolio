@@ -9,6 +9,84 @@ export default function Experience() {
       </div>
       <div className="full-container flex">
         <ol className="relative border-s border-gray-200 dark:border-gray-700">
+          {/*-------------- TCS start -------------- */}
+          <li className="mb-10 ms-4">
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
+            <h2 className="text-2xl font-semibold text-white">
+              <Link href={"https://www.tcs.com/"}>
+                Tata Consultancy Services (TCS)
+              </Link>
+            </h2>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 py-2">
+              I.T Analyst | March 2026 &nbsp;
+              <span className="text-white">(Present)</span>
+            </time>
+            {/* <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+          Role & Responsibility
+          </h3> */}
+
+            <ul className="list-disc ml-5 text-base font-normal text-gray-500 dark:text-gray-400">
+              <li className="mb-4 mt-3">
+                Worked as a{" "}
+                <span className="text-white font-semibold">
+                  Full Stack Developer
+                </span>
+                , building scalable web applications using modern technologies
+                like <span className="text-white font-semibold">Next.js</span>{" "}
+                and <span className="text-white font-semibold">Node.js</span>,
+                with a strong focus on performance, maintainability, and user
+                experience.
+              </li>
+              <li className="mb-4 mt-3">
+                Developed full-stack applications utilizing{" "}
+                <span className="text-white font-semibold">Next.js</span>,{" "}
+                <span className="text-white font-semibold">Node.js</span>, and{" "}
+                <span className="text-white font-semibold">
+                  MongoDB/PostgreSQL
+                </span>
+                , resulting in improved system efficiency and reliability.
+              </li>
+              <li className="mb-4 mt-3">
+                Debugged, tested, and maintained applications to ensure high
+                reliability and scalability across deployments.
+              </li>
+              <li className="mb-4 mt-3">
+                Optimized application performance through{" "}
+                <span className="text-white font-semibold">code splitting</span>
+                , advanced{" "}
+                <span className="text-white font-semibold">
+                  caching strategies
+                </span>
+                , and{" "}
+                <span className="text-white font-semibold">
+                  API optimization
+                </span>
+                .
+              </li>
+            </ul>
+            <a
+              href="#"
+              className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+            >
+              Learn more{" "}
+              <svg
+                className="w-3 h-3 ms-2 rtl:rotate-180"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
+          </li>
+          {/*-------------- TCS end -------------- */}
           {/*-------------- Codeclouds IT solutions pvt. ltd start -------------- */}
           <li className="mb-10 ms-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
@@ -28,33 +106,50 @@ export default function Experience() {
             <ul className="list-disc ml-5 text-base font-normal text-gray-500 dark:text-gray-400">
               <li className="mb-4 mt-3">
                 Created SaaS e-commerce applications utilizing headless
-                e-commerce services and integrated the <span className="text-white font-semibold"> GitHub API </span> to dynamically
-                generate websites, resulting in over a 30% boost in development
-                efficiency.
+                e-commerce services and integrated the{" "}
+                <span className="text-white font-semibold"> GitHub API </span>{" "}
+                to dynamically generate websites, resulting in over a 30% boost
+                in development efficiency.
               </li>
               <li className="mb-4 mt-3">
                 GeEnhanced back-end performance through the implementation of
-                <span className="text-white font-semibold"> backend clustering</span>, which improved processing efficiency.
+                <span className="text-white font-semibold">
+                  {" "}
+                  backend clustering
+                </span>
+                , which improved processing efficiency.
               </li>
               <li className="mb-4 mt-3">
-                Employed <span className="text-white font-semibold">CI/CD pipelines (Continuous Integration/Continuous
-                Deployment)</span> for smooth and automated deployment processes.
+                Employed{" "}
+                <span className="text-white font-semibold">
+                  CI/CD pipelines (Continuous Integration/Continuous Deployment)
+                </span>{" "}
+                for smooth and automated deployment processes.
               </li>
               <li className="mb-4 mt-3">
-                I have deployed and managed websites on <span className="text-white font-semibold">serverless platforms
-                like Vercel</span> , which increased site scalability and reduced
-                hosting expenses by 25%.
+                I have deployed and managed websites on{" "}
+                <span className="text-white font-semibold">
+                  serverless platforms like Vercel
+                </span>{" "}
+                , which increased site scalability and reduced hosting expenses
+                by 25%.
               </li>
               <li className="mb-4 mt-3">
-                Analyzed SEO performance with tools such as <span className="text-white font-semibold"> Google Analytics,
-                SEMrush, and Ahrefs</span> to ensure ongoing optimization and adherence
-                to best practices, leading to an approximate 20% rise in organic
-                traffic.
+                Analyzed SEO performance with tools such as{" "}
+                <span className="text-white font-semibold">
+                  {" "}
+                  Google Analytics, SEMrush, and Ahrefs
+                </span>{" "}
+                to ensure ongoing optimization and adherence to best practices,
+                leading to an approximate 20% rise in organic traffic.
               </li>
               <li className="mb-4 mt-3">
                 Worked collaboratively with cross-functional teams to improve
-                both <span className="text-white font-semibold">front-end and back-end</span> performance, enhancing the overall
-                user experience.
+                both{" "}
+                <span className="text-white font-semibold">
+                  front-end and back-end
+                </span>{" "}
+                performance, enhancing the overall user experience.
               </li>
             </ul>
 
@@ -100,13 +195,18 @@ export default function Experience() {
             <ul className="list-disc ml-5 text-base font-normal text-gray-500 dark:text-gray-400">
               <li className="mb-4 mt-3">
                 Developed and maintained a high-performance shipment tracking
-                system using <span className="text-white font-semibold">Laravel/PHP</span>, improving shipment visibility and
-                reducing processing time by 30%.
+                system using{" "}
+                <span className="text-white font-semibold">Laravel/PHP</span>,
+                improving shipment visibility and reducing processing time by
+                30%.
               </li>
               <li className="mb-4 mt-3">
-               Integrated <span className="text-white font-semibold">third-party platform APIs (e.g., payment gateways,
-                logistics services)</span> to enhance system capabilities and
-                interoperability.
+                Integrated{" "}
+                <span className="text-white font-semibold">
+                  third-party platform APIs (e.g., payment gateways, logistics
+                  services)
+                </span>{" "}
+                to enhance system capabilities and interoperability.
               </li>
               <li className="mb-4 mt-3">
                 Engineered data synchronization processes for over 12 warehouses
@@ -157,9 +257,11 @@ export default function Experience() {
                 Completed Professional web development training.
               </li>
               <li className="mb-4 mt-3">
-                Gained in-depth Knowledge of various types of technologies like<span className="text-white font-semibold">
-                CodeIgniter, HTML, CSS, JS, PHP, HTML, CSS, Bootstrap, Ajax,
-                MVC, Jquery, API.</span>
+                Gained in-depth Knowledge of various types of technologies like
+                <span className="text-white font-semibold">
+                  CodeIgniter, HTML, CSS, JS, PHP, HTML, CSS, Bootstrap, Ajax,
+                  MVC, Jquery, API.
+                </span>
               </li>
               <li className="mb-4 mt-3">
                 Worked on a live project and developed a covid vaccine booking

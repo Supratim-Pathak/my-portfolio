@@ -96,7 +96,7 @@ export default function Experience() {
               </Link>
             </h2>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 py-2">
-              Web developre | November 2022 &nbsp;
+              Web developre | November 2022 - March 2026 &nbsp;
               <span className="text-white">(Present)</span>
             </time>
             {/* <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
